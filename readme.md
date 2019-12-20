@@ -13,7 +13,7 @@ Queen - Crazy Little Thing Called Love (1980)
 https://www.youtube.com/watch?v=zO6D_BAuYCI
 
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://en.wikipedia.org/wiki/Frank_Sinatra#/media/File:Frank_Sinatra_'57.jpg "Logo Title Text 1")
 
 ## Music Theory
 
