@@ -11,8 +11,8 @@ You will find it, for example, in Frank Sinatras famous interpretation of the ja
 
 Outside of Jazz, the Walking Bass found great usage in the 1950's Rock'n'Roll. 
 Even in pop music, every now and then a Walking Bass finds its way into the top charts. Two examples are:
-1. [The Beatles - All My Loving (1963)](https://www.youtube.com/watch?v=ZEcqHA7dbwM)
-2. [Queen - Crazy Little Thing Called Love (1980)](https://www.youtube.com/watch?v=ZEcqHA7dbwM)
+1. [The Beatles - All My Loving (1963)](https://www.youtube.com/watch?v=TSpiwK5fig0)
+2. [Queen - Crazy Little Thing Called Love (1980)](https://www.youtube.com/watch?v=zO6D_BAuYCI)
 
 ## Music Theory
 
