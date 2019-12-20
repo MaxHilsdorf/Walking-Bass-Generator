@@ -22,6 +22,8 @@ This article assumes a basic understanding of music theory. You should know what
 
 In this chapter, I hope to give you a basic understanding of what a Walking Bass does and how it can be composed within a certain set of constraints. Remember that part of what makes music so interesting is that these constraints or rules can be broken in creative ways to produce new things. However, the algorithm won't. It will 100% obey to the rules I will now define.
 
+
+
 ## Algorithm
 
 <img src="images/algorithm.jpg" alt="code" width="300"/>
