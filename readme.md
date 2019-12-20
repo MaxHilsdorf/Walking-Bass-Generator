@@ -3,7 +3,7 @@ by Max Hilsdorf
 
 ## Introduction
 Inline-style: 
-![alt text](images/jazz_band.jpg "Double Bass")
+![](images/jazz_band.jpg "Double Bass") width = "200" height = "200"
 
 This algorithm composes a "Walking Bass" to any chord progression. The Walking Bass is one of the key stilistic elements of Jazz music.
 You will find it, for example, in Frank Sinatras famous interpretation of the jazz standard "Fly Me to The Moon"
