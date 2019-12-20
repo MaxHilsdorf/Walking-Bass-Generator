@@ -5,6 +5,8 @@ by Max Hilsdorf
 
 ![](images/jazz_band.jpg)
 
+<img src="images/jazz_band.jpg" alt="drawing" width="200"/>
+
 This algorithm composes a "Walking Bass" to any chord progression. The Walking Bass is one of the key stilistic elements of Jazz music.
 You will find it, for example, in Frank Sinatras famous interpretation of the jazz standard "Fly Me to The Moon"
 
