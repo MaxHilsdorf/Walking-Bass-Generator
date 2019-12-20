@@ -2,7 +2,7 @@
 by Max Hilsdorf
 
 ## Introduction
-Inline-style: 
+
 ![](images/jazz_band.jpg = 200x200)
 
 This algorithm composes a "Walking Bass" to any chord progression. The Walking Bass is one of the key stilistic elements of Jazz music.
