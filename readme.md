@@ -20,4 +20,6 @@ Even in pop music, every now and then a Walking Bass sneaks into the top charts.
 
 ## Algorithm
 
+<img src="images/algorithm.jpg" alt="algorithm" width="300"/>
+
 ## Output
