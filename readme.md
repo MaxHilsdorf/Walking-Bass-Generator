@@ -20,7 +20,7 @@ Even in pop music, every now and then a Walking Bass sneaks into the top charts.
 
 This article assumes a basic understanding of music theory. You should know what scales are and how to build chords from them. If you don't, you can still **use** the algorithm, in which case I suggest you skip to the next chapter.
 
-In this chapter, I hope to give you a basic understanding of what a Walking Bass does and how it can be composed within a certain set of constraints. Remember that part of what makes music so interesting is that these constraints or rules can be broken in creative ways to produce new sounds and . The algorithm doesn't do this. It will 100% obey to the rules I will now define.
+In this chapter, I hope to give you a basic understanding of what a Walking Bass does and how it can be composed within a certain set of constraints. Remember that part of what makes music so interesting is that these constraints or rules can be broken in creative ways to produce new things. However, the algorithm doesn't do this. It will 100% obey to the rules I will now define.
 
 ## Algorithm
 
