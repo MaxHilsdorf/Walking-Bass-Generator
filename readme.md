@@ -16,9 +16,10 @@ Even in pop music, every now and then a Walking Bass sneaks into the top charts.
 
 ## Music Theory
 
-This article assumes a basic understanding of music theory. You should know what scales are and how to build chords from them.
-
 <img src="images/sheet_music.jpg" alt="sheet_music" width="300"/>
+
+This article assumes a basic understanding of music theory. You should know what scales are and how to build chords from them.
+In this chapter, I hope to give you a basic understanding of what a Walking Bass does and how it can be composed within a certain set of constraints.
 
 ## Algorithm
 
