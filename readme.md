@@ -23,3 +23,5 @@ Even in pop music, every now and then a Walking Bass sneaks into the top charts.
 <img src="images/algorithm.jpg" alt="code" width="300"/>
 
 ## Output
+
+<img src="images/daw.PNG" alt="code" width="300"/>
