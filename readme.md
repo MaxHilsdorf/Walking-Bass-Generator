@@ -5,7 +5,7 @@ by Max Hilsdorf
 
 <img src="images/jazz_band.jpg" alt="jazz_band" width="300"/>
 
-The *Walking Bass* is one of the key stilistic elements of Jazz.
+The **Walking Bass** is one of the key stilistic elements of Jazz.
 You will find it, for example, in Frank Sinatras famous interpretation of the jazz standard 
 ["Fly Me to The Moon](https://www.youtube.com/watch?v=ZEcqHA7dbwM).
 
@@ -15,6 +15,8 @@ Even in pop music, every now and then a Walking Bass sneaks into the top charts.
 2. [Queen - Crazy Little Thing Called Love (1980)](https://www.youtube.com/watch?v=ZEcqHA7dbwM)
 
 ## Music Theory
+
+This article assumes a basic understanding of music theory. You should know what scales are and how to build chords from them.
 
 <img src="images/sheet_music.jpg" alt="sheet_music" width="300"/>
 
