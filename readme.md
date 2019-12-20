@@ -3,7 +3,7 @@ by Max Hilsdorf
 
 ## Introduction
 
-<img src="images/jazz_band.jpg" alt="jazz_band" width="400"/>
+<img src="images/jazz_band.jpg" alt="jazz_band" width="300"/>
 
 The *Walking Bass* is one of the key stilistic elements of Jazz.
 You will find it, for example, in Frank Sinatras famous interpretation of the jazz standard 
@@ -16,7 +16,7 @@ Even in pop music, every now and then a Walking Bass sneaks into the top charts.
 
 ## Music Theory
 
-<img src="images/sheet_music.jpg" alt="sheet_music" width="400"/>
+<img src="images/sheet_music.jpg" alt="sheet_music" width="300"/>
 
 ## Algorithm
 
