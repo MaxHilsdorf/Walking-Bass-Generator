@@ -5,7 +5,7 @@ by Max Hilsdorf
 
 <img src="images/jazz_band.jpg" alt="drawing" width="400"/>
 
-This algorithm composes a "Walking Bass" to any chord progression. The Walking Bass is one of the key stilistic elements of Jazz music.
+The Walking Bass is one of the key stilistic elements of Jazz music.
 You will find it, for example, in Frank Sinatras famous interpretation of the jazz standard "Fly Me to The Moon"
 
 Outside of Jazz, the Walking Bass found great usage in the 50's in many Rock'n'Roll songs. 
