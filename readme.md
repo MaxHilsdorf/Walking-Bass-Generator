@@ -16,6 +16,8 @@ Even in pop music, every now and then a Walking Bass sneaks into the top charts.
 
 ## Music Theory
 
+<img src="images/music_theory.jpg" alt="drawing" width="400"/>
+
 ## Algorithm
 
 ## Output
