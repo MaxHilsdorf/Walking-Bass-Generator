@@ -16,12 +16,12 @@ Even in pop music, every now and then a Walking Bass sneaks into the top charts.
 
 ## Music Theory
 
-<img src="images/sheet_music.jpg" alt="sheet_music" width="300"/>
+<img src="images/sheet_music.jpg" alt="sheet_music" width="200"/>
 
 ## Algorithm
 
-<img src="images/algorithm.jpg" alt="code" width="300"/>
+<img src="images/algorithm.jpg" alt="code" width="200"/>
 
 ## Output
 
-<img src="images/daw.PNG" alt="code" height="300"/>
+<img src="images/daw.PNG" alt="code" height="200"/>
