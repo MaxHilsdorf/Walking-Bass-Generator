@@ -2,9 +2,12 @@
 by Max Hilsdorf
 
 ## Introduction
+Inline-style: 
+![alt text](images/jazz_band "Logo Title Text 1")
+
 This algorithm composes a "Walking Bass" to any chord progression. The Walking Bass is one of the key stilistic elements of Jazz music.
-You will find it, for example, in Frank Sinatras famous interpretation of the jazz standard "Fly Me to The Moon":
-[![IMG](images/jazz_band.jpg)](https://www.youtube.com/watch?v=mQR0bXO_yI8)
+You will find it, for example, in Frank Sinatras famous interpretation of the jazz standard "Fly Me to The Moon"
+
 Outside of Jazz, the Walking Bass found great usage in the 50's in many Rock'n'Roll songs. 
 Even in pop music, every now and then a Walking Bass sneaks into the top charts. Two examples are:
 The Beatles - All My Loving (1963)
