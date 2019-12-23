@@ -1,4 +1,4 @@
-# Walking Bass Generator
+# Walking Bass Generator lul
 by Max Hilsdorf
 
 ## Summary
