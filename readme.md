@@ -4,7 +4,7 @@ by Max Hilsdorf
 ## Summary
 
 This algorithm takes a chord progression as an input, composes a Walking Bass for it and generates a MIDI-File for further use, f.e. in a Digital Audio Workstation. Possible applications are 
-1. (partially) automating Jazz style compositions.
+1. (partially) automating Jazz style compositions for movies, advertisement or karaoke events.
 2. creating learning material for music students.
 3. creating backing tracks for drummers to practice any jazz standard.
 
