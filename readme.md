@@ -54,6 +54,11 @@ The fourth note has a transitional character. It leaves the tonal material of th
 
 ### a) Notes and Chords
 
+```python
+s = "Python syntax highlighting"
+print s
+```
+
 ### b) Walking Bass
 
 ### c) MIDI
