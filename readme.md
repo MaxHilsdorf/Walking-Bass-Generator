@@ -34,7 +34,7 @@ On the strong beats 1 and 3, we will always play the root and fifth of the chord
 
 3. **Beat 2**
 
-Beat 2 will help manifest the basslines general motion created in the previous step. For an upwards motion, we will choose the third and for a downwards motion we will take the seventh.
+Beat 2 will help manifest the basslines general motion created in the previous step. We pick the third in case of an upwards motion and the seventh in case of a downwards motion.
 
 4. **Beat 4**
 
