@@ -146,7 +146,73 @@ b_dom = Chord.Dominant("B Dominant", 2)
 
 ### b) Walking Bass
 
+```python
+import random
+def write_bars(song, first_bar=True):
+    bass_lines = []
+    for i in range(len(song)):
+        bassline = [0, 0, 0, 0]
+        chord_notes = song[i].notes
+        # first beat
+        if i >= 1:
+            bassline[0] = next_root
+        else:
+            bassline[0] = random.choice(chord_notes[0].midi_pitches)
+        # third beat
+        bassline[2] = random.choice(chord_notes[2].midi_pitches)
+        # second beat
+        if isinstance(song[i], Chord.Major):
+            bassline[1] = bassline[0] + 4 if check_motion(bassline) == "up" else bassline[0] - 1
+        if isinstance(song[i], Chord.Minor):
+            bassline[1] = bassline[0] + 3 if check_motion(bassline) == "up" else bassline[0] - 2
+        if isinstance(song[i], Chord.Dominant):
+            bassline[1] = bassline[0] + 4 if check_motion(bassline) == "up" else bassline[0] - 2
+        # fourth beat
+        if (i+1) < len(song):
+            next_root = check_nearest_pitch(bassline[2], song[i+1].notes[0].midi_pitches)
+            bassline[3] = random.choice([next_root + 1, next_root - 1])
+        else:
+            bassline[3] = bassline[2]
+        
+        bass_lines.append(bassline)
+
+    return bass_lines
+    
+def check_motion(bassline):
+    return "up" if bassline[0] < bassline[2] else "down"
+    
+def check_nearest_pitch(current_pitch, note2):
+    for i, pitch in enumerate(note2):
+        if abs(current_pitch-pitch) <= 6:
+            return pitch
+        elif i == len(note2)-1:
+            for i, pitch in enumerate(note2):
+                if abs(current_pitch-pitch) <= 10:
+                    return pitch
+```
+
 ### c) MIDI
+
+```python
+from midiutil.MidiFile import MIDIFile
+MyMIDI = MIDIFile(1)
+track = 0
+time = 0
+MyMIDI.addTrackName(track,time,"Sample Track")
+MyMIDI.addTempo(track, time, 120)
+```
+
+```python
+for i, j in enumerate([list_of-pitches]):
+    MyMIDI.addNote(track = 0, channel = 0, pitch = j, time = i,
+               duration = 1, volume = 100)
+```
+
+```python
+binfile = open("fly me.mid", "wb")
+MyMIDI.writeFile(binfile)
+binfile.close()
+```
 
 ## IV - Output
 
