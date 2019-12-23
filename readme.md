@@ -261,5 +261,7 @@ binfile.close()
 <img src="images/daw.PNG" alt="code" height="200"/>
 
 From here, you can do whatever you want with it. You can transform the midi into sheet music and use it as learning material for your students. You can load it into a Digital Audio Workstation and create a Jazz song with it or use it as a backing track to practice drums with.
+Within a few minutes, you can add some drums and piano and have a stage ready karaoke version of your favorite Jazz songs. This is what I made out of the 'Fly me To The Moon Bassline' for example: https://vocaroo.com/3vddVyc5F0U.
+
 
 ## V - Discussion
