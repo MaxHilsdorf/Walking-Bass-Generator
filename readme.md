@@ -54,12 +54,15 @@ The fourth note has a transitional character. It leaves the tonal material of th
 
 ### a) Notes and Chords
 
+First, I created a 'note' class with the attributes 'name' and 'midi_pitches'. The name is going to be used to read the chord progressions inputs. Every key on a keyboard has a 'pitch' value in the MIDI format. In order for the algorithm to choose between different instances of the same note, this attribute will store all available MIDI pitches as a list.
+
 ```python
 class note:
     def __init__(self, name, midi_pitches):
         self.name = name
         self.midi_pitches = midi_pitches
 ```
+In a dictionary, I stored the name of every note as well as all available MIDI pitches. I entered the lowest playable instance of every note manually and filled up the rest with the 'add_octaves' function.
 
 ```python
 notes_dict = {"a" : [45], "a#" : [46], "b" : [47], "c" : [48], "c#" : [49], "d" : [50],
