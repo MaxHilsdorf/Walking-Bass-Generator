@@ -156,20 +156,39 @@ b_dom = Chord.Dominant("B Dominant", 2)
 
 ### b) Walking Bass
 
+Let's enable our algorithm to be *creative*.
+
 ```python
 import random
-def write_bars(song, first_bar=True):
+```
+
+The input, which the algorithm will write a Walking Bass to, will look like this:
+
+```python
+song = [e_min, a_dom, d_maj, d_maj]
+```
+
+Here, every element of the list represents a bar within the song and defines its underlying chord. The example above is a typical 2-5-1 cadence in the key of D Major. 
+
+The following 3 functions provide all necessary rules for composing a Walking Bass.
+The algorithm will loop through all available bars and choose notes within the aforementioned set of constraints. Wherever it has any freedom, it will make a random choice out of all options available.
+
+```python
+def write_bars(song):
     bass_lines = []
     for i in range(len(song)):
         bassline = [0, 0, 0, 0]
         chord_notes = song[i].notes
+        
         # first beat
         if i >= 1:
             bassline[0] = next_root
         else:
             bassline[0] = random.choice(chord_notes[0].midi_pitches)
+            
         # third beat
         bassline[2] = random.choice(chord_notes[2].midi_pitches)
+        
         # second beat
         if isinstance(song[i], Chord.Major):
             bassline[1] = bassline[0] + 4 if check_motion(bassline) == "up" else bassline[0] - 1
@@ -177,6 +196,7 @@ def write_bars(song, first_bar=True):
             bassline[1] = bassline[0] + 3 if check_motion(bassline) == "up" else bassline[0] - 2
         if isinstance(song[i], Chord.Dominant):
             bassline[1] = bassline[0] + 4 if check_motion(bassline) == "up" else bassline[0] - 2
+            
         # fourth beat
         if (i+1) < len(song):
             next_root = check_nearest_pitch(bassline[2], song[i+1].notes[0].midi_pitches)
