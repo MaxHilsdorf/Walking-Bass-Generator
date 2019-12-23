@@ -30,11 +30,11 @@ A Walking Bass is played in quarter notes, which - assuming a 4/4 time signature
 
 1. **Beats 1 and 3**
 
-On the strong beats 1 and 3, we will always play the root and fifth of the chord, respectively. As Jazz chord progressions are often highly complex, this helps to stabilize the harmonic movement. While you don't get to chose the note itself, you can still chose it's position. This lets you manipulate not only the pitch of the individual notes, but also the general direction of the basslines movement. Playing an E3 and a B3 would initiate an upward motion, while E4 and B3 would drive the bassline downwards. This will be important for choosing your next note.
+On the strong beats 1 and 3, we will always play the root and fifth of the chord, respectively. As Jazz chord progressions are often highly complex, this helps to stabilize the harmonic movement. While you don't get to pick the note itself, you can still choose it's position. This lets you manipulate not only the pitch of the individual notes, but also the general direction of the basslines movement. Playing an E3 and a B3 would initiate an upward motion, while E4 and B3 would drive the bassline downwards. This will be important for choosing your next note.
 
 3. **Beat 2**
 
-Beat 2 will help manifest the basslines general motion created in the previous step. For an upwards motion, the third will be chosen, while a downwards motion will be supported by the seventh.
+Beat 2 will help manifest the basslines general motion created in the previous step. For an upwards motion, we will choose the third and for a downwards motion we will take the seventh.
 
 4. **Beat 4**
 
