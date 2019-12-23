@@ -24,7 +24,7 @@ In this chapter, I hope to give you a basic understanding of what a Walking Bass
 
 For simplicity purposes, the following ruleset it rather restrictive. Therefore, it can't showcase the Walking Bass in all its variety.
 
-A Walking Bass is played in quarter notes, which - assuming a 4/4 time signature - setting leaves us with four notes to fill a single bar. The notes are chosen in a specific way from the musical material of the underlying chord. In this example, we will compose a Walking Bass over the first bar of Emin7.
+A Walking Bass is played in quarter notes, which - assuming a 4/4 time signature - leaves us with four notes to fill a single bar. The notes are chosen in a specific way from the musical material of the underlying chord. In this example, we will compose a Walking Bass over the first bar of Emin7.
 
 <img src="images/notation example 1.PNG" alt="notation example 1" width="400"/>
 
