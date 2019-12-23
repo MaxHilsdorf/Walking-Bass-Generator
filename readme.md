@@ -261,7 +261,16 @@ binfile.close()
 <img src="images/daw.PNG" alt="code" height="200"/>
 
 From here, you can do whatever you want with it. You can transform the midi into sheet music and use it as learning material for your students. You can load it into a Digital Audio Workstation and create a Jazz song with it or use it as a backing track to practice drums with.
-Within a few minutes, you can add some drums and piano and have a stage ready karaoke version of your favorite Jazz songs. ["This"](https://vocaroo.com/3vddVyc5F0U) is what I made out of the 'Fly me To The Moon Bassline' for example.
+Within a few minutes, you can add some drums and piano and have a stage ready karaoke version of your favorite Jazz songs. [This](https://vocaroo.com/3vddVyc5F0U) is what I made out of the 'Fly me To The Moon Bassline' for example.
 
+This algorithm could become part of a bigger architecture as well of course. It wouldn't be much work to generate drums as well, which would already create usable backing tracks for pianists or guitarists learning Jazz. And while we're at it, why not add a piano and/or guitar as well?
 
-## V - Discussion
+## V - Limitations
+
+This algorithm has its limitations. At the current state:
+
+1. Only one chord change per bar is possible.
+2. Only quarter notes can be composed.
+3. More complex harmonies can't be interpreted.
+
+In short: The algorithm performs well at a very basic level and is useful for simple applications. It can't, however, write basslines like a *real* Jazz bass player.
