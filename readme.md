@@ -54,7 +54,7 @@ The fourth note has a transitional character. It leaves the tonal material of th
 
 ### a) Notes and Chords
 
-First, I created a 'note' class with the attributes 'name' and 'midi_pitches'. The name is going to be used to read the chord progressions inputs. Every key on a keyboard has a 'pitch' value in the MIDI format. In order for the algorithm to choose between different instances of the same note, this attribute will store all available MIDI pitches as a list.
+First, I created a'note' class with the attributes 'name' and 'midi_pitches'. The name is going to be used to read the chord progressions inputs. Every key on a keyboard has a 'pitch' value in the MIDI format. In order for the algorithm to choose between different instances of the same note, this attribute will store all available MIDI pitches as a list.
 
 ```python
 class note:
@@ -62,14 +62,12 @@ class note:
         self.name = name
         self.midi_pitches = midi_pitches
 ```
-In a dictionary, I stored the name of every note as well as all available MIDI pitches. I entered the lowest playable instance of every note manually and filled up the rest with the 'add_octaves' function.
+In a dictionary, I stored the name of every note as well as all available MIDI pitches. I entered the lowest playable instance of every note wmanually and filled up the rest with the 'add_octaves' function.
 
 ```python
 notes_dict = {"a" : [45], "a#" : [46], "b" : [47], "c" : [48], "c#" : [49], "d" : [50],
         "d#" : [51], "e" : [40], "f" : [41], "f#" : [42], "g" : [43], "g#" : [44]}
-```
 
-```python
 def add_octaves(note_pitch):
     for pitch in range(note_pitch[0], 64, 12):
         if pitch == note_pitch[0]:
@@ -81,6 +79,8 @@ for element in notes_dict.keys():
     add_octaves(notes_dict[element])
 ```
 
+I created an object within the 'note' class for every one of the twelve notes.
+
 ```python
 a = note(list(notes_dict.keys())[0], list(notes_dict.values())[0])
 a_s = note(list(notes_dict.keys())[1], list(notes_dict.values())[1])
@@ -88,6 +88,10 @@ b = note(list(notes_dict.keys())[2], list(notes_dict.values())[2])
 c = note(list(notes_dict.keys())[3], list(notes_dict.values())[3])
 # [...]
 ```
+
+Here is where we lay the foundation for programming the actual Walking Bass.
+The 'Chord' class with its subclasses 'Major', 'Minor' and 'Dominant' gives the algorithm important tools for harmonic interpretation.
+These 3 chord types have a 'chord_structure', which is based on the major-, minor- and dominant seventh chords, respectively. For example, a major seventh chord uses the root, the major third, the perfect fifth and the major seventh note of the scale. The chord structure (0, 4, 7, 11) consists of the indices, with which these notes could be accessed in a list of all 12 notes.
 
 ```python
 class Chord:
