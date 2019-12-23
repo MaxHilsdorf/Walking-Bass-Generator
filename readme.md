@@ -1,6 +1,10 @@
 # Walking Bass Generator
 by Max Hilsdorf
 
+## Summary
+
+This algorithm takes a chord progression as an input, composes a Walking Bass for it and generates a MIDI-File for further use in f.e. a Digital Audio Workstation.
+
 ## Introduction
 
 <img src="images/jazz_band.jpg" alt="jazz_band" width="300"/>
