@@ -168,7 +168,14 @@ The input, which the algorithm will write a Walking Bass to, will look like this
 song = [e_min, a_dom, d_maj, d_maj]
 ```
 
-Here, every element of the list represents a bar within the song and defines its underlying chord. The example above is a typical 2-5-1 cadence in the key of D Major. 
+Here, every element of the list represents a bar within the song and defines its underlying chord. The example above is a typical 2-5-1 cadence in the key of D Major. This would be the way to input the first 16 bars of 'Fly Me to The Moon':
+
+```python
+song = [a_min, d_min, g_dom, c_maj, 
+        f_maj, f_maj, e_dom, a_min, 
+        d_min, g_dom, c_maj, c_maj,
+        d_min, g_dom, e_dom, e_dom]
+```
 
 The following 3 functions provide all necessary rules for composing a Walking Bass.
 The algorithm will loop through all available bars and choose notes within the aforementioned set of constraints. Wherever it has any freedom, it will make a random choice out of all options available.
@@ -223,6 +230,8 @@ def check_nearest_pitch(current_pitch, note2):
 
 ### c) MIDI
 
+To transform the created bassline into a MIDI file, you can use the midiutil module. First you setup a MIDI file with one track at the time 0 and a chosen tempo.
+
 ```python
 from midiutil.MidiFile import MIDIFile
 MyMIDI = MIDIFile(1)
@@ -232,11 +241,14 @@ MyMIDI.addTrackName(track,time,"Sample Track")
 MyMIDI.addTempo(track, time, 120)
 ```
 
+Then, you iterate over the composed bassline and add every note to the MIDI file.
+
 ```python
 for i, j in enumerate([list_of_pitches]):
     MyMIDI.addNote(track = 0, channel = 0, pitch = j, time = i,
                duration = 1, volume = 100)
 ```
+Lastly, you save the file somewhere on your computer.
 
 ```python
 binfile = open("fly me.mid", "wb")
@@ -247,5 +259,7 @@ binfile.close()
 ## IV - Output
 
 <img src="images/daw.PNG" alt="code" height="200"/>
+
+From here, you can do whatever you want with it. You can transform the midi into sheet music and use it as learning material for your students. You can load it into a Digital Audio Workstation and create a Jazz song with it or use it as a backing track to practice drums with.
 
 ## V - Discussion
