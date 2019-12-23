@@ -52,6 +52,12 @@ The fourth note has a transitional character. It leaves the tonal material of th
 
 <img src="images/algorithm.jpg" alt="code" width="300"/>
 
+### a) Notes and Chords
+
+### b) Walking Bass
+
+### c) MIDI
+
 ## IV - Output
 
 <img src="images/daw.PNG" alt="code" height="200"/>
