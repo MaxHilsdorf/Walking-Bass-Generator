@@ -73,6 +73,7 @@ def add_octaves(note_pitch):
             pass
         else:
             note_pitch.append(pitch)
+            
 for element in notes_dict.keys():
     add_octaves(notes_dict[element])
 ```
