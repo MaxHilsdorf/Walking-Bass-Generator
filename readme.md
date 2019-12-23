@@ -9,7 +9,7 @@ This algorithm takes a chord progression as an input, composes a Walking Bass fo
 3. creating backing tracks for drummers to practice any jazz standard.
 
 
-## I Introduction
+## I - Introduction
 
 <img src="images/jazz_band.jpg" alt="jazz_band" width="300"/>
 
@@ -22,7 +22,7 @@ Even in pop music, every now and then a Walking Bass finds its way into the top 
 1. [The Beatles - All My Loving (1963)](https://www.youtube.com/watch?v=TSpiwK5fig0)
 2. [Queen - Crazy Little Thing Called Love (1980)](https://www.youtube.com/watch?v=zO6D_BAuYCI)
 
-## II Music Theory
+## II - Music Theory
 
 <img src="images/sheet_music.jpg" alt="sheet_music" width="300"/>
 
@@ -48,12 +48,12 @@ Beat 2 will help manifest the basslines general motion created in the previous s
 
 The fourth note has a transitional character. It leaves the tonal material of the underlying chord and anticipates the following chord with a chromatic movement. In practice, this means that the last note will be one half step away from the root of the next chord. In our example, the Emin7 is followed by an A7, which allows for either an A# or an Ab (or G# and Bb).
 
-## III Algorithm
+## III - Algorithm
 
 <img src="images/algorithm.jpg" alt="code" width="300"/>
 
-## IV Output
+## IV - Output
 
 <img src="images/daw.PNG" alt="code" height="200"/>
 
-## V Discussion
+## V - Discussion
