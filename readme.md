@@ -26,7 +26,7 @@ For simplicity purposes, the following ruleset it rather restrictive. Therefore,
 
 A Walking Bass is played in quarter notes, which in a 4/4 setting leaves us with four notes to fill a single bar. The notes are chosen in a specific way from the musical material of the underlying chord. In the example below, we will compose a Walking Bass over the first bar of Emin7.
 
-*Beispielbild*
+<img src="images/notation example 1.PNG" alt="notation example 1" width="300"/>
 
 1. **Beats 1 and 3**
 
