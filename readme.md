@@ -38,7 +38,7 @@ Beat 2 will help manifest the basslines general motion created in the previous s
 
 4. **Beat 4**
 
-The fourth note helps transition into the next chord. Typical for Jazz, any chromatic movement into the next note (the root of the next chord) is allowed. In practice, this means that the last note will be one half step away from the root of the next chord. In our example, the Emin7 is followed by an A7, which allows for either an A# or an Ab (or G# and Bb if you will).
+The fourth note has a transitional character. It leaves the tonal material of the underlying chord and anticipates the following chord with a chromatic movement. In practice, this means that the last note will be one half step away from the root of the next chord. In our example, the Emin7 is followed by an A7, which allows for either an A# or an Ab (or G# and Bb if you will).
 
 ## Algorithm
 
