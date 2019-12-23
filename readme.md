@@ -203,7 +203,7 @@ MyMIDI.addTempo(track, time, 120)
 ```
 
 ```python
-for i, j in enumerate([list_of-pitches]):
+for i, j in enumerate([list_of_pitches]):
     MyMIDI.addNote(track = 0, channel = 0, pitch = j, time = i,
                duration = 1, volume = 100)
 ```
