@@ -55,8 +55,92 @@ The fourth note has a transitional character. It leaves the tonal material of th
 ### a) Notes and Chords
 
 ```python
-s = "Python syntax highlighting"
-print s
+class note:
+    def __init__(self, name, midi_pitches):
+        self.name = name
+        self.midi_pitches = midi_pitches
+```
+
+```python
+notes_dict = {"a" : [45], "a#" : [46], "b" : [47], "c" : [48], "c#" : [49], "d" : [50],
+        "d#" : [51], "e" : [40], "f" : [41], "f#" : [42], "g" : [43], "g#" : [44]}
+```
+
+```python
+def add_octaves(note_pitch):
+    for pitch in range(note_pitch[0], 64, 12):
+        if pitch == note_pitch[0]:
+            pass
+        else:
+            note_pitch.append(pitch)
+for element in notes_dict.keys():
+    add_octaves(notes_dict[element])
+```
+
+```python
+a = note(list(notes_dict.keys())[0], list(notes_dict.values())[0])
+a_s = note(list(notes_dict.keys())[1], list(notes_dict.values())[1])
+b = note(list(notes_dict.keys())[2], list(notes_dict.values())[2])
+c = note(list(notes_dict.keys())[3], list(notes_dict.values())[3])
+# [...]
+```
+
+```python
+class Chord:
+    def __init__(self):
+        self.name = "Chord"
+        self.mode = self.assign_mode()
+        
+    def assign_mode(self):
+        return Chord.Mode(self)
+
+    class Major:
+        def __init__(self, name, root):
+            global notes
+            self.name = name
+            self.root = int(root)
+            self.chord_structure = [0, 4, 7, 11]
+            self.notes = apply_chord_structure(self.chord_structure, notes, self.root)
+            
+    class Minor:
+        def __init__(self, name, root):
+            global notes
+            self.name = name
+            self.root = int(root)
+            self.chord_structure = [0, 3, 7, 10]
+            self.notes = apply_chord_structure(self.chord_structure, notes, self.root)
+            
+    class Dominant:
+        def __init__(self, name, root):
+            global notes
+            self.name = name
+            self.root = int(root)
+            self.chord_structure = [0, 4, 7, 10]
+            self.notes = apply_chord_structure(self.chord_structure, notes, self.root)
+ 
+ def apply_chord_structure(chord_structure, notes, root):
+    chord_notes = []
+    for element in chord_structure:
+        if root + element < len(notes):
+            chord_notes.append(notes[root + element])
+        else:
+            chord_notes.append(notes[-len(notes) + (root + element - len(notes))])
+    return chord_notes
+```
+
+```python
+a_maj = Chord.Major("A Major", 0)
+a_min = Chord.Minor("A Minor", 0)
+a_dom = Chord.Dominant("A Dominant", 0)
+
+a_s_maj = Chord.Major("A# Major", 1)
+a_s_min = Chord.Minor("A# Minor", 1)
+a_s_dom = Chord.Dominant("A# Dominant", 1)
+
+b_maj = Chord.Major("B Major", 2)
+b_min = Chord.Minor("B Minor", 2)
+b_dom = Chord.Dominant("B Dominant", 2)
+# [...]
 ```
 
 ### b) Walking Bass
